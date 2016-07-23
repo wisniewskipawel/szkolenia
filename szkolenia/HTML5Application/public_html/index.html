@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Szkolenia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <nav class="navbar" role="navigation">
+            <div class="container-fluid well">
+                <div class="container">
+                    <div class="row col-lg-6">
+                        <a class="pull-right fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/"></a>
+                        <a class="pull-right fa fa-google-plus" aria-hidden="true" href="#"></a>
+                        <a class="pull-right fa fa-twitter" aria-hidden="true" href="#"></a>
+                        <a class="pull-right fa fa-linkedin" aria-hidden="true"></a>
+                        <a class="pull-right fa fa-instagram" aria-hidden="true"></a>
+                    </div>
+                    <!-- col-xs-8 col-sm-4 col-md-6 col-lg-3 -->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 pull-right">
+                        <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#rejestracja">Rejestracja</a>
+                        <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#logowanie">Logowanie</a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row center-block">
+                        <ul class="nav nav-tabs col-lg-12" role="tablist">
+                            <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">Start</a></li>
+                            <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">O nas</a></li>
+                            <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">Kontakt z nami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                    <label class="label label-default col-lg-6 pull-left">Etykeita</label>         
+                    <label class="label label-default col-lg-6 pull-right">Etykieta</label>         
+                    <img  class="col-lg-6 pull-left" src="img/2_kurs_obslugi_komp.jpg"/>
+                    <img  class="col-lg-6 pull-right" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg"/>
+            </div>
+        </div>
+        <div class="modal fade" tabindex="-1" role="dialog" id="logowanie">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-heder">
+                        <div class="modal-title">
+                            <h1 class="text-muted ">Zaloguj się</h1>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form" class="center-block">
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">PHasło</label>
+                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
+                              </div>
+                              <button type="submit" class="btn btn-default">Wyślij!</button>
+                            </form>
+                        </div>
+                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------------------------>
+        <div class="modal fade" tabindex="-1" role="dialog" id="rejestracja">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-heder">
+                        <div class="modal-title">
+                            <h1 class="text-muted ">Zaloguj się</h1>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form" class="center-block">
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">PHasło</label>
+                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
+                              </div>
+                               <div class="form-group">
+                                <label for="exampleInputPassword1">PHasło</label>
+                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
+                              </div>   
+                              <button type="submit" class="btn btn-default">Wyślij!</button>
+                            </form>
+                        </div>
+                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center">
+            ©  Paweł Wiśniewski
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+</html>
