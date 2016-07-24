@@ -14,7 +14,6 @@ and open the template in the editor.
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
-
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="row col-lg-6">
@@ -29,68 +28,43 @@ and open the template in the editor.
                     <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#rejestracja">Rejestracja</a>
                     <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#logowanie">Logowanie</a>
                 </div>
-                <ul class="nav nav-tabs col-lg-12" role="tablist">
-                    <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">Start</a></li>
-                    <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">O nas</a></li>
-                    <li class="active"><a href="#1zakladka" role="tab" data-toggle="tab">Kontakt z nami</a></li>
-                </ul>
-            </div>           
+             </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 pull-right">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="active"><a href="index.html" role="tab">Start</a></li>
+                            <li class="active"><a href="#1zakladka" role="tab">O nas</a></li>
+                            <li class="active"><a href="kontakt.html" role="tab">Kontakt z nami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                      
         </nav>
         <div class="container">
             <div class="row">
-                <img  class="col-lg-4 pull-left" src="img/2_kurs_obslugi_komp.jpg"/>
-                <img  class="col-lg-4 pull-right" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg"/>
-            </div>
-        </div>
-        <div class="modal fade" tabindex="-1" role="dialog" id="logowanie">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-heder">
-                        <div class="modal-body">
-                            <form role="form" class="center-block">
-                              <div class="form-group">
-                                <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
-                              </div>
-                              <div class="form-group">
-                                <label for="exampleInputPassword1">PHasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>
-                              <button type="submit" class="btn btn-default">Wyślij!</button>
-                            </form>
-                        </div>
-                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
-                    </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <form role="form" class="center-block">
+                      <div class="form-group">
+                        <label for="exampleInputNick">Twój login</label>
+                        <input type="text" class="form-control text-center">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputNick">Twój adres email</label>
+                        <input type="text" class="form-control text-center">
+                      </div>  
+                       <div class="form-group">
+                           <label for="exampleTextarea"> Wipsz swoje pytanie</label>
+                           <textarea class="form-control" rows="4">
+                            
+                           </textarea>
+                      </div>   
+                      <button type="submit" class="btn btn-default">Wyślij!</button>
+                    </form>                        
+                    <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
                 </div>
             </div>
-        </div>
-        <!------------------------------------------------------------------------>
-        <div class="modal fade" tabindex="-1" role="dialog" id="rejestracja">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-heder">
-                        <div class="modal-body">
-                            <form role="form" class="center-block">
-                              <div class="form-group">
-                                <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
-                              </div>
-                              <div class="form-group">
-                                <label for="exampleInputPassword1">PHasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>
-                               <div class="form-group">
-                                <label for="exampleInputPassword1">PHasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>   
-                              <button type="submit" class="btn btn-default">Wyślij!</button>
-                            </form>
-                        </div>
-                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>        
         
         <footer class="text-center">
             ©  Paweł Wiśniewski
