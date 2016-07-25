@@ -12,6 +12,13 @@ and open the template in the editor.
         <link href='http://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+          <script src="//code.jquery.com/jquery-latest.js"></script>
+        <script>
+              $(document).ready(function() {
+               $(".tool").tooltip();
+            });
+            
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-default" role="navigation">
@@ -43,8 +50,24 @@ and open the template in the editor.
         </nav>
         <div class="container">
             <div class="row">
-                <img  class="well-footer col-lg-4 pull-left" src="img/2_kurs_obslugi_komp.jpg"/>
-                <img  class="well-footer col-lg-4 pull-right" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg"/>
+                <img  class="well col-lg-4 pull-left" src="img/2_kurs_obslugi_komp.jpg"/>
+                <img  class="well col-lg-4 pull-right" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg"/>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-8">
+                    <h4 class="pull-left col-lg-6 label label-default tool" data-placement="top" data-toggle="tooltip" data-original-title="Poniżej znajdują się linki do kilku naszych realizacji" >Przykładowe realiacje</h4>
+                    <div class="col-lg-8">
+                        <a href="http://przedpolowaniem.pl">http://przedpolowaniem.pl</a>                    
+                    </div>
+                    <div class="col-lg-8">         
+                        <a href="http://mediawdomu.pl/forum/forum.html">http://mediawdomu.pl/forum/forum.html</a>
+                    </div>
+                    <div class="col-lg-6"> 
+                        <a href="http://f16.com.pl">http://f16.com.pl</a>         
+                    </div>
+                </div>
             </div>
         </div>
         <div class="modal fade" tabindex="-1" role="dialog" id="logowanie">
@@ -64,7 +87,6 @@ and open the template in the editor.
                               <button type="submit" class="btn btn-default">Wyślij!</button>
                             </form>
                         </div>
-                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
                     </div>
                 </div>
             </div>
@@ -91,16 +113,13 @@ and open the template in the editor.
                               <button type="submit" class="btn btn-default">Wyślij!</button>
                             </form>
                         </div>
-                        <button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span></button>
                     </div>
                 </div>
             </div>
         </div>
-        
         <footer class="text-center">
                         ©  Paweł Wiśniewski
         </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
