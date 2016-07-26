@@ -41,7 +41,7 @@ and open the template in the editor.
             <div class="col-lg-8 pull-right">
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="active"><a href="index.html" role="tab">Start</a></li>
-                    <li class="active"><a href="#1zakladka" role="tab">O nas</a></li>
+                    <li class="active"><a href="onas.html" role="tab">O nas</a></li>
                     <li class="active"><a href="kontakt.html" role="tab">Kontakt z nami</a></li>
                 </ul>
             </div>
@@ -50,78 +50,33 @@ and open the template in the editor.
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="col-lg-3 well">
             <form role="form" class="center-block">
-              <div class="form-group">
-                <label for="exampleInputNick">Twój login</label>
-                <input type="text" data-placement="top" data-toggle="tooltip" data-original-title="Wpisz swój login" class="tool form-control text-center">
-              </div>
                 <div class="form-group">
-                <label for="exampleInputNick">Twój adres email</label>
-                <input type="text" data-placement="top" data-toggle="tooltip" data-original-title="Ważne by adres e-mai był prawidłowy. Pozwoli nam to skontaktowwć się z Tobą" class="tool form-control text-center">
-              </div>  
-               <div class="form-group">
-                   <label for="exampleTextarea"> Wipsz swoje pytanie</label>
-                   <textarea class="form-control" rows="4">
-                   </textarea>
-              </div>   
-              <button type="submit" class="btn btn-default">Wyślij!</button>
-            </form>                        
+                    <label for="emali">Nasz adres</label>
+                    <input class="col-lg-6 form-control" type="text" placeholder="szkolenia-zawodowe@interia.pl" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-6" for="exampleInputNick">Twój login</label>
+                      <input type="text" data-placement="top" data-toggle="tooltip" data-original-title="Wpisz swój login" class="tool form-control text-center">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputNick">Twój adres email</label>
+                        <input type="text" data-placement="top" data-toggle="tooltip" data-original-title="Ważne by adres e-mai był prawidłowy. Pozwoli nam to skontaktowwć się z Tobą" class="tool form-control text-center">
+                    </div>  
+                    <div class="form-group">
+                        <label for="exampleTextarea"> Wipsz swoje pytanie</label>
+                        <textarea class="form-control" rows="4">
+                        </textarea>
+                   </div>   
+                        <button type="submit" class="btn btn-default">Wyślij!</button>
+            </form>
         </div>
-        <div class="col-lg-6 pull-right">
-            <img src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg" alt=""/>
-        </div>
+        <img class="col-lg-4 pull-right well" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg" alt=""/>    
     </div>
 </div>
     <!-------------------------------------------------------------------------------------------->
-            <div class="modal fade" tabindex="-1" role="dialog" id="logowanie">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-heder">
-                        <div class="modal-body">
-                            <form role="form" class="center-block">
-                              <div class="form-group">
-                                <label for="exampleInputEmail">Email</label>
-                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
-                              </div>
-                              <div class="form-group">
-                                <label for="exampleInputPassword">Hasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>
-                              <button type="submit" class="btn btn-default">Wyślij!</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!------------------------------------------------------------------------>
-        <div class="modal fade" tabindex="-1" role="dialog" id="rejestracja">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-heder">
-                        <div class="modal-body">
-                            <form role="form" class="center-block">
-                              <div class="form-group">
-                                <label for="exampleInputEmail">Email</label>
-                                <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Podaj adres Email">
-                              </div>
-                              <div class="form-group">
-                                <label for="exampleInputPassword">Hasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>
-                               <div class="form-group">
-                                <label for="exampleInputPassword1">Hasło</label>
-                                <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Twoje tajne hasło">
-                              </div>   
-                              <button type="submit" class="btn btn-default">Wyślij!</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    
 <footer class="text-center">
     ©  Paweł Wiśniewski
 </footer>

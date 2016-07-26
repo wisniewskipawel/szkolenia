@@ -13,64 +13,36 @@ and open the template in the editor.
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
           <script src="//code.jquery.com/jquery-latest.js"></script>
-        <script>
-              $(document).ready(function() {
-               $(".tool").tooltip();
-            });
-            
-        </script>
     </head>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="row col-lg-6">
-                    <a class="pull-right fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/"></a>
-                    <a class="pull-right fa fa-google-plus" aria-hidden="true" href="#"></a>
-                    <a class="pull-right fa fa-twitter" aria-hidden="true" href="#"></a>
-                    <a class="pull-right fa fa-linkedin" aria-hidden="true"></a>
-                    <a class="pull-right fa fa-instagram" aria-hidden="true"></a>
-                </div>
-                <!-- col-xs-8 col-sm-4 col-md-6 col-lg-3 -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 pull-right">
-                    <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#rejestracja">Rejestracja</a>
-                    <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#logowanie">Logowanie</a>
-                </div>
-             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 pull-right">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="active"><a href="index.html" role="tab">Start</a></li>
-                            <li class="active"><a href="onas.html" role="tab">O nas</a></li>
-                            <li class="active"><a href="kontakt.html" role="tab">Kontakt z nami</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>                      
-        </nav>
-        <div class="container">
-            <div class="row">
-                <img  class="well col-lg-4 pull-left" src="img/2_kurs_obslugi_komp.jpg"/>
-                <img  class="well col-lg-4 pull-right" src="img/4_przyjazna_nauka_dla_dużych_i_malych.jpg"/>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="row col-lg-6">
+                <a class="pull-right fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/"></a>
+                <a class="pull-right fa fa-google-plus" aria-hidden="true" href="#"></a>
+                <a class="pull-right fa fa-twitter" aria-hidden="true" href="#"></a>
+                <a class="pull-right fa fa-linkedin" aria-hidden="true"></a>
+                <a class="pull-right fa fa-instagram" aria-hidden="true"></a>
             </div>
-        </div>
-        <div class="container">
+            <!-- col-xs-8 col-sm-4 col-md-6 col-lg-3 -->
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 pull-right">
+                <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#rejestracja">Rejestracja</a>
+                <a class="btn btn-primary pull-right clearfix" data-toggle="modal" data-target="#logowanie">Logowanie</a>
+            </div>
+         </div>
+        <div class="container-fluid">
             <div class="row">
-                <div class=" col-lg-8">
-                    <h4 class="pull-left col-lg-6 label label-default tool" data-placement="top" data-toggle="tooltip" data-original-title="Poniżej znajdują się linki do kilku naszych realizacji" >Przykładowe realiacje</h4>
-                    <div class="col-lg-8">
-                        <a href="http://przedpolowaniem.pl">http://przedpolowaniem.pl</a>                    
-                    </div>
-                    <div class="col-lg-8">         
-                        <a href="http://mediawdomu.pl/forum/forum.html">http://mediawdomu.pl/forum/forum.html</a>
-                    </div>
-                    <div class="col-lg-6"> 
-                        <a href="http://f16.com.pl">http://f16.com.pl</a>         
-                    </div>
+                <div class="col-lg-8 pull-right">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="index.html" role="tab">Start</a></li>
+                        <li class="active"><a href="onas.html" role="tab">O nas</a></li>
+                        <li class="active"><a href="kontakt.html" role="tab">Kontakt z nami</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-<!--------------------------------------------------------------------------------------------------->        
+        </div>                      
+    </nav>
+<!-------------------------------------------------------------------------------------------------->
         <div class="modal fade" tabindex="-1" role="dialog" id="logowanie">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -118,9 +90,60 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <footer class="text-center">
-                        ©  Paweł Wiśniewski
-        </footer>
+<!------------------------------------------------------------------------------------------------------------------>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#szkolenia">
+                      Kursy
+                    </a>
+                  </h4>
+                </div>
+                <div id="szkolenia" class="panel-collapse collapse">
+                  <div class="panel-body">
+                       Nasze kursy
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#wykladowcy">
+                      Wykladowcy
+                    </a>
+                  </h4>
+                </div>
+                <div id="wykladowcy" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      Wykladowcy
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#aktualnie">
+                      Aktualnosci 
+                    </a>
+                  </h4>
+                </div>
+                <div id="aktualnie" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Aktualnosci
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="text-center">
+                ©  Paweł Wiśniewski
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
